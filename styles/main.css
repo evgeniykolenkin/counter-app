@@ -3,42 +3,81 @@ html {
 }
 
 body {
-  font-family: ;
+  font-family: "Manrope", sans-serif;
+}
+
+button {
+  font-family: inherit;
+}
+
+body,
+button,
+.container {
   box-sizing: border-box;
 }
 
-.container {
+.counter {
+  display: flex;
+  padding: 50px;
 }
 
-.counter {
+.container,
+.counter__text-wrapper,
+.counter__btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 36px;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
 }
 
 .counter__text-wrapper {
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
 }
 
-.counter__btn-wrapper {
-}
-
-.counter__title {
+h1 {
+  color: #4191ff;
 }
 
 .counter__data {
-}
-
-.counter__btn-wrapper {
+  color: #d45366;
 }
 
 .btn {
+  width: 500px;
+  padding: 28px 164px;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
 }
 
 .counter__btn-plus {
+  background: #4191ff;
 }
 
 .counter__btn-reset {
-}
-
-@media (max-width: 1199px) {
+  background: #d45366;
 }
 
 @media (max-width: 767px) {
+  .container,
+  .counter__text-wrapper,
+  .counter__btn-wrapper {
+    row-gap: 18px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+  }
 }
