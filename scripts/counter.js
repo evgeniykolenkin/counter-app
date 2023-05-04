@@ -7,6 +7,7 @@ let counter = 0;
 
 function ResetCount() {
   counter = 0;
+  btnReset.setAttribute("disabled", true);
 
   counterText.innerText = "Передохни!";
   counterTextExtra.innerText = "Иначе никуда не поедем";
@@ -58,6 +59,7 @@ const countLoops = () => {
 
 const resetLoops = () => {
   counter = 0;
+  btnReset.setAttribute("disabled", true);
 
   counterText.innerText = "Погнали заново!";
   counterTextExtra.innerText = "Мы на пути к Олимпиаде!";

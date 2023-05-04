@@ -74,8 +74,24 @@ h1 {
   background: #4191ff;
 }
 
+.counter__btn-plus:active {
+  background: #18a79f;
+}
+
 .counter__btn-reset {
   background: #d45366;
+}
+
+.counter__btn-reset:disabled {
+  background-color: darkgray;
+}
+
+.counter__btn-reset:disabled:active {
+  background-color: darkgray;
+}
+
+.counter__btn-reset:active {
+  background: #d1e617;
 }
 
 @media (max-width: 767px) {
