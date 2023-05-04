@@ -30,6 +30,7 @@ button,
   align-items: center;
   row-gap: 36px;
   width: 100%;
+  text-align: center;
 }
 
 .container {
@@ -48,6 +49,10 @@ h1 {
 
 .counter__data {
   color: #d45366;
+}
+
+.counter__data-extra {
+  font-size: 21px;
 }
 
 .btn {

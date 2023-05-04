@@ -40,7 +40,7 @@ btnPlus.addEventListener("click", function () {
     counterTextExtra.innerText = "Ты так умрёшь скоро!";
   }
   if (counter >= 40) {
-    counterTextExtra.innerText = "Даже кони столько не бегают!";
+    counterTextExtra.innerText = "Кони столько не бегают!";
   }
   if (counter >= 50) {
     counterTextExtra.innerText = "Скорее всего ты ползёшь!";
