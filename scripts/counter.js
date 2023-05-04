@@ -42,13 +42,13 @@ btnPlus.addEventListener("click", function () {
   if (counter >= 40) {
     counterTextExtra.innerText = "Кони столько не бегают!";
   }
-  if (counter >= 50) {
+  if (counter >= 45) {
     counterTextExtra.innerText = "Скорее всего ты ползёшь!";
   }
-  if (counter >= 55) {
+  if (counter >= 50) {
     counterTextExtra.innerText = "Хватит!";
   }
-  if (counter >= 60) {
+  if (counter >= 55) {
     ResetLoops();
   }
 });
