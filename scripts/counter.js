@@ -35,7 +35,7 @@ const countLoops = () => {
     counterTextExtra.innerText = "Неплохо!";
   }
   if (counter >= 15 && counter < 20) {
-    counterTextExtra.innerText = "Силы еще есть?";
+    counterTextExtra.innerText = "Силы ещё есть?";
   }
   if (counter >= 20 && counter < 25) {
     counterTextExtra.innerText = "Машина!";
