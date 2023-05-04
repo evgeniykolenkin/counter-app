@@ -1,0 +1,44 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: ;
+  box-sizing: border-box;
+}
+
+.container {
+}
+
+.counter {
+}
+
+.counter__text-wrapper {
+}
+
+.counter__btn-wrapper {
+}
+
+.counter__title {
+}
+
+.counter__data {
+}
+
+.counter__btn-wrapper {
+}
+
+.btn {
+}
+
+.counter__btn-plus {
+}
+
+.counter__btn-reset {
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 767px) {
+}
