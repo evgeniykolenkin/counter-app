@@ -1,3 +1,4 @@
+const colorToggleBtn = "btn__clicked";
 const btnPlus = document.querySelector(".counter__btn-plus");
 const btnReset = document.querySelector(".counter__btn-reset");
 const counterText = document.querySelector(".counter__data");
@@ -13,8 +14,13 @@ function ResetCount() {
   counterTextExtra.innerText = "Иначе никуда не поедем";
 }
 
+function toggleColor() {
+  btnPlus.classList.toggle(colorToggleBtn);
+}
+
 const countLoops = () => {
   ++counter;
+  toggleColor();
 
   counterText.innerText = counter;
   counterTextExtra.innerText = "Начало положено!";
@@ -66,5 +72,4 @@ const resetLoops = () => {
 };
 
 btnPlus.addEventListener("click", countLoops);
-
 btnReset.addEventListener("click", resetLoops);
