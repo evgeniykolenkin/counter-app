@@ -1,3 +1,5 @@
 # counter-app
 
-# git-gup pages
+# git-hub pages
+
+https://evgeniykolenkin.github.io/counter-app/
